@@ -65,10 +65,11 @@ All repositories in this profile adhere to industrial documentation standards:
 
 <div align="center">
 
-### 📊 GitHub Activity & Metrics
+### 📊 Engineering Focus & Status
 
-![Alejandro's GitHub Stats](https://github-readme-stats.vercel.app/api?username=alejandrosuarezg-dev&show_icons=true&theme=dark&count_private=true&hide_border=true)
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=alejandrosuarezg-dev&layout=compact&theme=dark&hide_border=true)
+| Profile Status | Primary Focus | Availability |
+| :---: | :---: | :---: |
+| ![Active](https://img.shields.io/badge/Status-Active-brightgreen?style=for-the-badge) | **Industrial Automation & Hardware** | **Open for Freelance Contracts** |
 
 ---
 
