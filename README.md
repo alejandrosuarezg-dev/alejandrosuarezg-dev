@@ -37,7 +37,6 @@ Focused on modular PLC development (AOIs, FBD, FSM State Machines), virtual comm
 ![MQTT](https://img.shields.io/badge/MQTT-IoT_Protocol-660099?style=flat-square&logo=mqtt&logoColor=white)
 ![Modbus](https://img.shields.io/badge/Modbus-RTU_|_TCP-004088?style=flat-square)
 ![Microsoft Azure](https://img.shields.io/badge/Microsoft_Azure-Cloud-0089D6?style=flat-square&logo=microsoftazure&logoColor=white)
-![VMware](https://img.shields.io/badge/VMware-Workstation-607078?style=flat-square&logo=vmware&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-Containers-2496ED?style=flat-square&logo=docker&logoColor=white)
 
 ---
