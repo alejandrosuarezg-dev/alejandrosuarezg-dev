@@ -31,7 +31,7 @@ Focused on modular PLC development (AOIs, FBD, FSM State Machines), virtual comm
 ![KiCad](https://img.shields.io/badge/KiCad-PCB_Design-314CB6?style=flat-square&logo=kicad&logoColor=white)
 ![ESP32](https://img.shields.io/badge/ESP32-IoT-E7352C?style=flat-square&logo=espressif&logoColor=white)
 ![STM32](https://img.shields.io/badge/STM32-Microcontrollers-03234C?style=flat-square&logo=stmicroelectronics&logoColor=white)
-![C/C++](https://img.shields.io/badge/C%2F C%2B%2B-Firmware-00599C?style=flat-square&logo=cplusplus&logoColor=white)
+![C/C++](https://img.shields.io/badge/C%2FC%2B%2B-Firmware-00599C?style=flat-square&logo=cplusplus&logoColor=white)
 
 ### Cloud, Protocols & Infrastructure
 ![MQTT](https://img.shields.io/badge/MQTT-IoT_Protocol-660099?style=flat-square&logo=mqtt&logoColor=white)
