@@ -24,7 +24,7 @@ Focused on modular PLC development (AOIs, FBD, FSM State Machines), virtual comm
 ![Rockwell Automation](https://img.shields.io/badge/Rockwell_Studio_5000-RED?style=flat-square&logo=rockwellautomation&logoColor=white)
 ![Siemens](https://img.shields.io/badge/Siemens_TIA_Portal-009999?style=flat-square&logo=siemens&logoColor=white)
 ![Factory I/O](https://img.shields.io/badge/Factory_I%2FO-Simulation-blue?style=flat-square)
-![Ignition SCADA](https://img.shields.io/badge/Ignition_SCADA-FF6600?style=flat-square)
+![C/C++](https://img.shields.io/badge/C%2FC%2B%2B-Firmware-00599C?style=flat-square&logo=cplusplus&logoColor=white)
 ![IEC 61131-3](https://img.shields.io/badge/IEC_61131--3-LD_|_ST_|_FBD-darkgreen?style=flat-square)
 
 ### Hardware, PCB & Embedded Systems
