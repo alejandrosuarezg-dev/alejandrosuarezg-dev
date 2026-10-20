@@ -14,7 +14,7 @@
 ## 📌 Executive Summary
 Mechatronics Engineer specialized in **High-Density Multi-layer PCB Design (KiCad 8.0)**, **Hardware Architecture**, and **Bare-Metal / RTOS Firmware Development (C/C++)**.
 
-Focused on end-to-end hardware delivery: schematic capture, component selection/BOM optimization, controlled-impedance routing, power distribution network (PDN) design, EMC/EMI compliance, and production-ready manufacturing packages (Gerbers, NC Drill, IPC-2581, Pick & Place) tailored for JLCPCB, PCBWay, and industrial assembly houses.
+Focused on end-to-end hardware delivery: schematic capture, **BOM cost optimization & value engineering**, controlled-impedance routing, power distribution network (PDN) design, EMC/EMI compliance, and production-ready manufacturing packages (Gerbers, NC Drill, IPC-2581, Pick & Place) tailored for JLCPCB, PCBWay, and industrial assembly houses.
 
 ---
 
@@ -24,6 +24,7 @@ Focused on end-to-end hardware delivery: schematic capture, component selection/
 ![KiCad 8.0](https://img.shields.io/badge/KiCad_8.0-PCB_Design_|_Schematics-314CB6?style=flat-square&logo=kicad&logoColor=white)
 ![Multi-Layer Stackups](https://img.shields.io/badge/Layout-2_to_6_Layers_|_High_Density-004088?style=flat-square)
 ![DFM/DFA](https://img.shields.io/badge/Manufacturing-DFM_|_DFA_|_Gerber_X2-107C41?style=flat-square)
+![BOM Optimization](https://img.shields.io/badge/Value_Engineering-BOM_Cost_Optimization-FF8C00?style=flat-square)
 ![Signal & Power Integrity](https://img.shields.io/badge/Engineering-EMC_|_EMI_|_PDN_|_Controlled_Impedance-E7352C?style=flat-square)
 
 ### Embedded Microcontrollers & Firmware
@@ -43,8 +44,8 @@ Focused on end-to-end hardware delivery: schematic capture, component selection/
 
 | Core Domain | Tools & Standards | Primary Deliverables |
 | :--- | :--- | :--- |
-| **Schematic Capture & Hardware Design** | KiCad 8.0, Component Sourcing | Structured hierarchical schematics, power management, signal conditioning, active/passive filtering, symbol library creation. |
-| **High-Density PCB Layout & DFM** | KiCad 8.0, IPC-2221/2222 | 2 to 6 layer stackups, differential pairs, copper pour optimization, thermal relief management, Gerber X2 / ODB++ packages. |
+| **Schematic Capture & Value Engineering** | KiCad 8.0, LCSC, Octopart, DigiKey | Structured hierarchical schematics, power management, signal conditioning, active/passive filtering, **BOM cost reduction using high-availability drop-in replacements**. |
+| **High-Density PCB Layout & DFM/DFA** | KiCad 8.0, IPC-2221/2222 | 2 to 6 layer stackups, differential pairs, copper pour optimization, thermal relief management, Gerber X2 / ODB++ packages optimized for automated assembly. |
 | **Signal Integrity & EMC Considerations** | Controlled Impedance, Grounding Planes | Return path optimization, EMI mitigation, decoupling capacitor placement, ESD protection circuitry, Power Distribution Networks (PDN). |
 | **Embedded Firmware & Hardware Bring-Up** | C/C++, STM32CubeIDE, ESP-IDF | Peripheral drivers (SPI, I2C, CAN, UART), bare-metal execution, hardware bring-up, logic analyzer debugging, FreeRTOS tasks. |
 
@@ -56,7 +57,7 @@ All hardware repositories in this profile adhere to professional engineering del
 - `📁 schematics/` — Hierarchical schematics, PDF exports, and KiCad source files (`.kicad_sch`).
 - `📁 layout/` — PCB stackup configurations, layer assignments, and layout source files (`.kicad_pcb`).
 - `📁 fabrication/` — Production files: Gerbers (RS-274X/X2), NC Drill files, Pick & Place (`.csv`), and IPC-D-356 netlists.
-- `📁 bom/` — Bill of Materials structured with LSCM / Octopart part numbers, DigiKey/Mouser links, and footprint specs.
+- `📁 bom/` — Bill of Materials structured with LCSC / Octopart part numbers, DigiKey/Mouser links, unit pricing, and footprint specs.
 - `📁 docs/media/` — High-resolution 3D PCB renders, raytraced images, schematic block diagrams, and hardware test captures.
 - `📄 README.md` — Complete system specifications, operating parameters, stackup definition, and assembly instructions.
 
