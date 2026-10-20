@@ -1,7 +1,7 @@
 <div align="center">
 
 # Alejandro Suárez
-### **Industrial Automation & Control Systems | Hardware & Embedded Developer**
+### **Hardware & PCB Design Engineer | Embedded Systems & Firmware**
 
 [![LinkedIn Badge](https://img.shields.io/badge/LinkedIn-Profile-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com)
 [![Email Badge](https://img.shields.io/badge/Email-Contact_Me-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:alejandro.suarezg.dev@gmail.com)
@@ -12,32 +12,30 @@
 </div>
 
 ## 📌 Executive Summary
-Mechatronics Engineer and Industrial Automation Technologist specialized in **PLC Control Systems (Rockwell / Siemens)**, **Structured Software Architectures (IEC 61131-3)**, and **Industrial Embedded Hardware**. 
+Mechatronics Engineer specialized in **High-Density Multi-layer PCB Design (KiCad 8.0)**, **Hardware Architecture**, and **Bare-Metal / RTOS Firmware Development (C/C++)**.
 
-Focused on modular PLC development (AOIs, FBD, FSM State Machines), virtual commissioning via **Factory I/O**, multi-layer **KiCad PCB design**, and secure industrial communications (**Modbus, MQTT, Ethernet/IP**) connected to cloud endpoints.
+Focused on end-to-end hardware delivery: schematic capture, component selection/BOM optimization, controlled-impedance routing, power distribution network (PDN) design, EMC/EMI compliance, and production-ready manufacturing packages (Gerbers, NC Drill, IPC-2581, Pick & Place) tailored for JLCPCB, PCBWay, and industrial assembly houses.
 
 ---
 
 ## 🛠 Engineering Tech Stack
 
-### Industrial Control & Software
-![Rockwell Automation](https://img.shields.io/badge/Rockwell_Studio_5000-RED?style=flat-square&logo=rockwellautomation&logoColor=white)
-![Siemens](https://img.shields.io/badge/Siemens_TIA_Portal-009999?style=flat-square&logo=siemens&logoColor=white)
-![Factory I/O](https://img.shields.io/badge/Factory_I%2FO-Simulation-blue?style=flat-square)
-![C/C++](https://img.shields.io/badge/C%2FC%2B%2B-Firmware-00599C?style=flat-square&logo=cplusplus&logoColor=white)
-![IEC 61131-3](https://img.shields.io/badge/IEC_61131--3-LD_|_ST_|_FBD-darkgreen?style=flat-square)
+### Hardware & Multi-Layer PCB Design
+![KiCad 8.0](https://img.shields.io/badge/KiCad_8.0-PCB_Design_|_Schematics-314CB6?style=flat-square&logo=kicad&logoColor=white)
+![Multi-Layer Stackups](https://img.shields.io/badge/Layout-2_to_6_Layers_|_High_Density-004088?style=flat-square)
+![DFM/DFA](https://img.shields.io/badge/Manufacturing-DFM_|_DFA_|_Gerber_X2-107C41?style=flat-square)
+![Signal & Power Integrity](https://img.shields.io/badge/Engineering-EMC_|_EMI_|_PDN_|_Controlled_Impedance-E7352C?style=flat-square)
 
-### Hardware, PCB & Embedded Systems
-![KiCad](https://img.shields.io/badge/KiCad-PCB_Design-314CB6?style=flat-square&logo=kicad&logoColor=white)
-![ESP32](https://img.shields.io/badge/ESP32-IoT-E7352C?style=flat-square&logo=espressif&logoColor=white)
-![STM32](https://img.shields.io/badge/STM32-Microcontrollers-03234C?style=flat-square&logo=stmicroelectronics&logoColor=white)
-![C/C++](https://img.shields.io/badge/C%2FC%2B%2B-Firmware-00599C?style=flat-square&logo=cplusplus&logoColor=white)
+### Embedded Microcontrollers & Firmware
+![C/C++ Firmware](https://img.shields.io/badge/C%2FC%2B%2B-Embedded_Firmware-00599C?style=flat-square&logo=cplusplus&logoColor=white)
+![STM32](https://img.shields.io/badge/STM32-ARM_Cortex--M-03234C?style=flat-square&logo=stmicroelectronics&logoColor=white)
+![ESP32](https://img.shields.io/badge/ESP32-SoC_|_Wi--Fi_|_BLE-E7352C?style=flat-square&logo=espressif&logoColor=white)
+![FreeRTOS](https://img.shields.io/badge/FreeRTOS-Real_Time_OS-2496ED?style=flat-square)
 
-### Cloud, Protocols & Infrastructure
-![MQTT](https://img.shields.io/badge/MQTT-IoT_Protocol-660099?style=flat-square&logo=mqtt&logoColor=white)
-![Modbus](https://img.shields.io/badge/Modbus-RTU_|_TCP-004088?style=flat-square)
-![Microsoft Azure](https://img.shields.io/badge/Microsoft_Azure-Cloud-0089D6?style=flat-square&logo=microsoftazure&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-Containers-2496ED?style=flat-square&logo=docker&logoColor=white)
+### Hardware Communication Protocols & Testing
+![Hardware Protocols](https://img.shields.io/badge/Protocols-SPI_|_I2C_|_UART_|_CAN_Bus_|_RS485-660099?style=flat-square)
+![Lab Equipment](https://img.shields.io/badge/Testing-Oscilloscope_|_Logic_Analyzer_|_Multimeter-0089D6?style=flat-square)
+![Git / GitHub](https://img.shields.io/badge/Version_Control-Git_|_KiCad_VCS-181717?style=flat-square&logo=git&logoColor=white)
 
 ---
 
@@ -45,20 +43,22 @@ Focused on modular PLC development (AOIs, FBD, FSM State Machines), virtual comm
 
 | Core Domain | Tools & Standards | Primary Deliverables |
 | :--- | :--- | :--- |
-| **PLC Programming & Logic** | Studio 5000, TIA Portal (S7-1200/1500) | Modular logic routines, AOIs/L5X exports, Structured Text (ST) state machines, fault diagnostics. |
-| **Virtual Commissioning** | Factory I/O, Digital Twins | Pre-deployment logic validation, 3D plant simulation, I/O mapping, HMI screens. |
-| **PCB & Hardware Design** | KiCad 8.0, C/C++ | Schematic capture, multi-layer stackups, Gerber package generation, signal conditioning, EMC considerations. |
-| **Industrial IoT Gateways** | ESP32, STM32, Modbus RTU/TCP, MQTT | Edge-to-cloud telemetry, Node-RED dashboards, Azure IoT Hub integration. |
+| **Schematic Capture & Hardware Design** | KiCad 8.0, Component Sourcing | Structured hierarchical schematics, power management, signal conditioning, active/passive filtering, symbol library creation. |
+| **High-Density PCB Layout & DFM** | KiCad 8.0, IPC-2221/2222 | 2 to 6 layer stackups, differential pairs, copper pour optimization, thermal relief management, Gerber X2 / ODB++ packages. |
+| **Signal Integrity & EMC Considerations** | Controlled Impedance, Grounding Planes | Return path optimization, EMI mitigation, decoupling capacitor placement, ESD protection circuitry, Power Distribution Networks (PDN). |
+| **Embedded Firmware & Hardware Bring-Up** | C/C++, STM32CubeIDE, ESP-IDF | Peripheral drivers (SPI, I2C, CAN, UART), bare-metal execution, hardware bring-up, logic analyzer debugging, FreeRTOS tasks. |
 
 ---
 
 ## 📂 Repository Architecture Standards
 
-All repositories in this profile adhere to industrial documentation standards:
-* `📁 docs/` — P&ID diagrams, IO lists, functional spec documents, and ladder exports (PDF).
-* `📁 src/` — Modular source files (`.L5X`, `.ST`, `.SCL`, or KiCad design files).
-* `📁 media/` — Virtual commissioning GIFs, HMI captures, and PCB 3D renders.
-* `📄 README.md` — Detailed system breakdown, state machine specs, and hardware setup guides.
+All hardware repositories in this profile adhere to professional engineering delivery standards:
+- `📁 schematics/` — Hierarchical schematics, PDF exports, and KiCad source files (`.kicad_sch`).
+- `📁 layout/` — PCB stackup configurations, layer assignments, and layout source files (`.kicad_pcb`).
+- `📁 fabrication/` — Production files: Gerbers (RS-274X/X2), NC Drill files, Pick & Place (`.csv`), and IPC-D-356 netlists.
+- `📁 bom/` — Bill of Materials structured with LSCM / Octopart part numbers, DigiKey/Mouser links, and footprint specs.
+- `📁 docs/media/` — High-resolution 3D PCB renders, raytraced images, schematic block diagrams, and hardware test captures.
+- `📄 README.md` — Complete system specifications, operating parameters, stackup definition, and assembly instructions.
 
 ---
 
@@ -68,10 +68,10 @@ All repositories in this profile adhere to industrial documentation standards:
 
 | Profile Status | Primary Focus | Availability |
 | :---: | :---: | :---: |
-| ![Active](https://img.shields.io/badge/Status-Active-brightgreen?style=for-the-badge) | **Industrial Automation & Hardware** | **Open for Freelance Contracts** |
+| ![Active](https://img.shields.io/badge/Status-Active-brightgreen?style=for-the-badge) | **Hardware & PCB Design (KiCad 8.0)** | **Open for Freelance & PCB Contracts** |
 
 ---
 
-📫 **Professional Contact:** [alejandro.suarezg.dev@gmail.com](mailto:alejandro.suarezg.dev@gmail.com) | Bogotá, Colombia
+📫 **Hardware Inquiries & Contact:** [alejandro.suarezg.dev@gmail.com](mailto:alejandro.suarezg.dev@gmail.com) | Bogotá, Colombia
 
 </div>
