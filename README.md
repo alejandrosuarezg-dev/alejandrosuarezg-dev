@@ -1,7 +1,7 @@
 <div align="center">
 
 # Alejandro Suárez
-### **Hardware & PCB Design Engineer | Embedded Systems & Firmware**
+### **High-Speed Digital & SI/PI Hardware Engineer | Embedded Systems**
 
 [![LinkedIn Badge](https://img.shields.io/badge/LinkedIn-Profile-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com)
 [![Email Badge](https://img.shields.io/badge/Email-Contact_Me-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:alejandro.suarezg.dev@gmail.com)
@@ -12,54 +12,47 @@
 </div>
 
 ## 📌 Executive Summary
-Mechatronics Engineer specialized in **High-Density Multi-layer PCB Design (KiCad 8.0)**, **Hardware Architecture**, and **Bare-Metal / RTOS Firmware Development (C/C++)**.
+Mechatronics Engineer specialized in **High-Speed Digital Hardware Design**, **Signal & Power Integrity (SI/PI) Architecture**, and **High-Density Multi-layer PCBs (KiCad 8.0)**. 
 
-Focused on end-to-end hardware delivery: schematic capture, **BOM cost optimization & value engineering**, controlled-impedance routing, power distribution network (PDN) design, EMC/EMI compliance, and production-ready manufacturing packages (Gerbers, NC Drill, IPC-2581, Pick & Place) tailored for JLCPCB, PCBWay, and industrial assembly houses.
+Focused on end-to-end mission-critical hardware delivery for Edge AI, SoC Carrier Boards, and High-Bandwidth Embedded Systems:controlled-impedance routing ($Z_0 / Z_\text{diff}$), high-speed differential pairs (PCIe Gen3/4, USB 3.2, Gigabit Ethernet, MIPI CSI), Power Distribution Network (PDN) target impedance tuning, jitter/crosstalk mitigation, and production-ready manufacturing packages adhering to **IPC-2221/2222 Class 2 & 3** standards.
 
 ---
 
-## 🛠 Engineering Tech Stack
+## 🛠 High-Speed Engineering Tech Stack
 
-### Hardware & Multi-Layer PCB Design
+### High-Speed PCB Layout & Substrate Architecture
 ![KiCad 8.0](https://img.shields.io/badge/KiCad_8.0-PCB_Design_|_Schematics-314CB6?style=flat-square&logo=kicad&logoColor=white)
-![Multi-Layer Stackups](https://img.shields.io/badge/Layout-2_to_6_Layers_|_High_Density-004088?style=flat-square)
-![DFM/DFA](https://img.shields.io/badge/Manufacturing-DFM_|_DFA_|_Gerber_X2-107C41?style=flat-square)
-![BOM Optimization](https://img.shields.io/badge/Value_Engineering-BOM_Cost_Optimization-FF8C00?style=flat-square)
-![Signal & Power Integrity](https://img.shields.io/badge/Engineering-EMC_|_EMI_|_PDN_|_Controlled_Impedance-E7352C?style=flat-square)
+![Multi-Layer Stackups](https://img.shields.io/badge/Stackups-6_to_12+_Layers_|_HDI_|_Microvias-004088?style=flat-square)
+![Signal & Power Integrity](https://img.shields.io/badge/SI/PI_Engineering-Controlled_Impedance_|_PDN_|_Skew_Matching-E7352C?style=flat-square)
+![DFM/DFA Manufacturing](https://img.shields.io/badge/Manufacturing-IPC--2581_|_Gerber_X2_|_Class_3_DFM-107C41?style=flat-square)
 
-### Embedded Microcontrollers & Firmware
-![C/C++ Firmware](https://img.shields.io/badge/C%2FC%2B%2B-Embedded_Firmware-00599C?style=flat-square&logo=cplusplus&logoColor=white)
-![STM32](https://img.shields.io/badge/STM32-ARM_Cortex--M-03234C?style=flat-square&logo=stmicroelectronics&logoColor=white)
-![ESP32](https://img.shields.io/badge/ESP32-SoC_|_Wi--Fi_|_BLE-E7352C?style=flat-square&logo=espressif&logoColor=white)
-![FreeRTOS](https://img.shields.io/badge/FreeRTOS-Real_Time_OS-2496ED?style=flat-square)
-
-### Hardware Communication Protocols & Testing
-![Hardware Protocols](https://img.shields.io/badge/Protocols-SPI_|_I2C_|_UART_|_CAN_Bus_|_RS485-660099?style=flat-square)
-![Lab Equipment](https://img.shields.io/badge/Testing-Oscilloscope_|_Logic_Analyzer_|_Multimeter-0089D6?style=flat-square)
-![Git / GitHub](https://img.shields.io/badge/Version_Control-Git_|_KiCad_VCS-181717?style=flat-square&logo=git&logoColor=white)
+### High-Speed Interfaces & Processing Platforms
+![PCIe & High-Speed](https://img.shields.io/badge/Interfaces-PCIe_Gen3/4_|_NVMe_|_SFP+_|_MIPI_CSI-660099?style=flat-square)
+![Compute Platforms](https://img.shields.io/badge/Platforms-NVIDIA_Jetson_Orin_|_RPi_CM4/CM5_|_ARM_Cortex--A/M-03234C?style=flat-square)
+![Embedded Firmware](https://img.shields.io/badge/Firmware-Bare--Metal_C/C++_|_STM32Cube_|_FreeRTOS-00599C?style=flat-square&logo=cplusplus&logoColor=white)
 
 ---
 
 ## ⚡ Core Domain Specializations
 
-| Core Domain | Tools & Standards | Primary Deliverables |
+| Specialization Area | Engineering Tools & Standards | Primary Deliverables & Design Focus |
 | :--- | :--- | :--- |
-| **Schematic Capture & Value Engineering** | KiCad 8.0, LCSC, Octopart, DigiKey | Structured hierarchical schematics, power management, signal conditioning, active/passive filtering, **BOM cost reduction using high-availability drop-in replacements**. |
-| **High-Density PCB Layout & DFM/DFA** | KiCad 8.0, IPC-2221/2222 | 2 to 6 layer stackups, differential pairs, copper pour optimization, thermal relief management, Gerber X2 / ODB++ packages optimized for automated assembly. |
-| **Signal Integrity & EMC Considerations** | Controlled Impedance, Grounding Planes | Return path optimization, EMI mitigation, decoupling capacitor placement, ESD protection circuitry, Power Distribution Networks (PDN). |
-| **Embedded Firmware & Hardware Bring-Up** | C/C++, STM32CubeIDE, ESP-IDF | Peripheral drivers (SPI, I2C, CAN, UART), bare-metal execution, hardware bring-up, logic analyzer debugging, FreeRTOS tasks. |
+| **High-Speed Layout & Controlled Impedance** | KiCad 8.0, Saturn PCB, IPC-2141A | 6 to 12+ layer stackups, Microstrip & Stripline routing, controlled $50\,\Omega$ single-ended & $85/100\,\Omega$ differential impedance matching. |
+| **Signal Integrity (SI) & Length Matching** | Skew Tuning, Differential Pairs | Intra-pair & inter-pair delay matching (picosecond tolerance), continuous return path plane management, via-stitch coupling, and crosstalk mitigation. |
+| **Power Integrity (PI) & PDN Optimization** | Low-ESL Decoupling, Plane Resonance | Multi-rail Power Distribution Network (PDN) layout, low target impedance ($<10\text{ m}\Omega$), bulk/ceramic capacitor placement strategies for high dI/dt ICs. |
+| **Edge AI & High-Density Compute Integration** | NVIDIA Jetson, ARM SoCs, LPDDR4/PCIe | Custom carrier board architecture, high-speed connector breakouts, power-stage isolation, and thermal dissipation management. |
 
 ---
 
-## 📂 Repository Architecture Standards
+## 📂 Standardized Repository Deliverables
 
-All hardware repositories in this profile adhere to professional engineering delivery standards:
-- `📁 schematics/` — Hierarchical schematics, PDF exports, and KiCad source files (`.kicad_sch`).
-- `📁 layout/` — PCB stackup configurations, layer assignments, and layout source files (`.kicad_pcb`).
-- `📁 fabrication/` — Production files: Gerbers (RS-274X/X2), NC Drill files, Pick & Place (`.csv`), and IPC-D-356 netlists.
-- `📁 bom/` — Bill of Materials structured with LCSC / Octopart part numbers, DigiKey/Mouser links, unit pricing, and footprint specs.
-- `📁 docs/media/` — High-resolution 3D PCB renders, raytraced images, schematic block diagrams, and hardware test captures.
-- `📄 README.md` — Complete system specifications, operating parameters, stackup definition, and assembly instructions.
+All hardware repositories in this profile adhere to high-reliability engineering standards:
+- `📁 schematics/` — Hierarchical schematics, multi-page PDF exports, and source files (`.kicad_sch`).
+- `📁 layout/` — PCB stackup configuration, layer assignments, constraint rules, and layout files (`.kicad_pcb`).
+- `📁 calculation/` — Trace impedance reports, PDN decoupling calculations, thermal via estimates, and stackup specs.
+- `📁 fabrication/` — Manufacturing package: IPC-2581, Gerber X2, drill tables, stackup drawing, Pick & Place (`.csv`), and netlists.
+- `📁 bom/` — Managed Bill of Materials with Digikey/Mouser links, LCSC/Octopart IDs, component footprints, and thermal ratings.
+- `📁 docs/media/` — High-resolution 3D renders, stackup diagrams, high-speed routing close-ups, and lab test captures.
 
 ---
 
@@ -69,10 +62,10 @@ All hardware repositories in this profile adhere to professional engineering del
 
 | Profile Status | Primary Focus | Availability |
 | :---: | :---: | :---: |
-| ![Active](https://img.shields.io/badge/Status-Active-brightgreen?style=for-the-badge) | **Hardware & PCB Design (KiCad 8.0)** | **Open for Freelance & PCB Contracts** |
+| ![Active](https://img.shields.io/badge/Status-Active-brightgreen?style=for-the-badge) | **High-Speed Digital & SI/PI Hardware Design** | **Open for Remote Freelance & Contract Work** |
 
 ---
 
-📫 **Hardware Inquiries & Contact:** [alejandro.suarezg.dev@gmail.com](mailto:alejandro.suarezg.dev@gmail.com) | Bogotá, Colombia
+📫 **Hardware Inquiries & Inquiries:** [alejandro.suarezg.dev@gmail.com](mailto:alejandro.suarezg.dev@gmail.com) | Bogotá, Colombia
 
 </div>
